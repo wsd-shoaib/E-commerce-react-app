@@ -1,0 +1,74 @@
+.Newsletter-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #5397b0;
+  background: linear-gradient(
+    90deg,
+    rgba(83, 151, 176, 1) 0%,
+    rgba(60, 140, 100, 1) 72%
+  );
+  color: #fff;
+  text-align: center;
+  width: 85%;
+  margin: auto;
+  padding: 2rem 0.5rem;
+  border-radius: 0.3rem;
+}
+.Newsletter-area h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin: 2rem 0 2.2rem 0;
+}
+.Newsletter-area p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Newsletter-area .subscribe {
+  position: relative;
+  width: 65%;
+  margin: auto;
+}
+.Newsletter-area input {
+  border: 1px solid #fff;
+  border-radius: 1.5rem;
+  padding: 0.7rem 1rem;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.Newsletter-area .subscribe .sub-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border: none;
+  border-radius: 2rem;
+  padding: 0 1.5rem;
+  background-color: #000;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media screen and (max-width: 600px) {
+  .Newsletter-area {
+    padding: 1rem 0.8rem;
+  }
+
+  .Newsletter-area .subscribe {
+    width: 100%;
+    margin: auto;
+  }
+  .Newsletter-area input {
+    padding: 0.5rem 0.3rem;
+  }
+  .Newsletter-area .subscribe .sub-btn {
+    padding: 0 0.4rem;
+  }
+}

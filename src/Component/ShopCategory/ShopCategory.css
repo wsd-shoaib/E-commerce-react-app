@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+.ShopCategory {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 2rem 0;
+}
+.card-area {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.ShopCategory .category-title {
+  margin: 2rem;
+}
+.ShopCategory .category-title h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.hr {
+  border-bottom: 3px solid #1a0e0e;
+  width: 50%;
+  margin: auto;
+  border-radius: 3rem;
+}
+
+.card-area a {
+  display: inline-block;
+  margin: auto;
+  text-decoration: none;
+  width: 350px;
+  height: 60vh;
+  border-radius: 0.3rem;
+  color: rgba(35, 10, 255, 0.986);
+  transition: 0.8s;
+  border: 1px solid #a39e9e;
+}
+.card-area a:hover {
+  transform: scale(1.02);
+  box-shadow: 2px 2px 5px 2px #1a0e0e;
+}
+.card1 {
+  background: url("/assets/mans.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card2 {
+  background: url("/assets/woman.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card3 {
+  background: url("/assets/electronics.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 1105px) {
+  .card-area a {
+    width: 300px;
+    height: 50vh;
+  }
+}
+@media screen and (max-width: 995px) {
+  .card-area a {
+    width: 250px;
+    height: 50vh;
+  }
+}
+@media screen and (max-width: 790px) {
+  .card-area a {
+    width: 220px;
+    height: 50vh;
+  }
+}
+@media screen and (max-width: 690px) {
+  .card-area a {
+    width: 300px;
+    height: 50vh;
+  }
+  .card-area {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (max-width: 490px) {
+  .card-area a {
+    width: 230px;
+    height: 40vh;
+  }
+  .card-area {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

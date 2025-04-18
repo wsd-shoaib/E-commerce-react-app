@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+.TextTitle {
+  background: url("./assets/Product-banner.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  transition: 0.7s;
+}
+.TextTitle h1 {
+  margin-top: 5rem;
+  background-color: rgba(211, 48, 36, 0.68);
+  padding: 1rem 1.5rem;
+  border-radius: 0.7rem;
+  box-shadow: 2px 3px 6px 2px #000;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+}
+@media screen and (max-width: 445px) {
+  .TextTitle {
+    height: 40vh;
+  }
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "id": 33,
+    "title": "Girls Cropped",
+    "description": "Free Assembly Girls Cropped Mixed Cable Knit Fair Isle Sweater, Sizes 4-18",
+    "oldPrice": "20.00",
+    "price": "15.31",
+    "brand": "Free Assembly",
+    "image": "https://i.ibb.co/BVzsqvz/10.webp",
+    "isNew": true,
+    "category": "Fashion"
+  },
+  {
+    "id": 34,
+    "title": "Short Sleeve Moisture",
+    "price": 7.95,
+    "description": "100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk for a Great Fit, Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away, Soft Lightweight Fabric with comfortable V-neck collar and a slimmer fit, delivers a sleek, more feminine silhouette and Added Comfort",
+    "category": "women's clothing",
+    "image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
+    "rating": {
+      "rate": 4.5,
+      "count": 146
+    }
+  },
+  {
+    "id": 35,
+    "title": "Beats Solo3",
+    "description": "Beats Solo3 Wireless On-Ear Headphones with Apple W1 Headphone Chip, Black, MX432LL/A",
+    "oldPrice": "120.99",
+    "price": "130.09",
+    "brand": "Beats by Dr. Dre",
+    "image": "https://i.ibb.co/rQKjVC2/5.webp",
+    "isNew": true,
+    "category": "Electronics"
+  },
+  {
+    "id": 36,
+    "title": "DJI Air",
+    "description": "DJI Mini 2 Fly More Combo - Ultralight Foldable Drone, 3-Axis Gimbal with 4K Camera, 12MP Photos, 31 Min Flight Time",
+    "oldPrice": "1050.00",
+    "price": "999.00",
+    "brand": "DJI",
+    "image": "https://i.ibb.co/qdfB3s6/2.webp",
+    "isNew": true,
+    "category": "Electronics"
+  }
+]

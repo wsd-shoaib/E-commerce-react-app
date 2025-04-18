@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+.Item-area {
+  padding: 3rem 5rem;
+  background-color: blanchedalmond;
+  transition: 0.7s;
+}
+.Item-area h1 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+.Item-area .hr {
+  width: 200px;
+  margin: auto;
+  border-bottom: 3px solid #696363;
+  border-radius: 2rem;
+  transition: 0.7s;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 85%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  transition: 0.7s;
+}
+@media screen and (max-width: 1050px) {
+  .items {
+    grid-template-columns: repeat(2, 1fr);
+    width: 70%;
+  }
+}
+@media screen and (max-width: 599px) {
+  .items {
+    grid-template-columns: repeat(1, 1fr);
+    width: 70%;
+  }
+  .Item-area {
+    padding: 3rem 1rem;
+  }
+  .Item-area .hr {
+    width: 150px;
+  }
+  .Item-area h1 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+}

@@ -1,0 +1,80 @@
+.Login-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transform: 0.7s;
+  background-color: rgb(121, 118, 115);
+}
+.sing-up-area {
+  background-color: #fff;
+  width: 50%;
+  padding: 2rem;
+  text-align: center;
+  transition: 0.7s;
+}
+
+.Login-area form input {
+  display: block;
+  width: 60%;
+  margin: auto;
+  padding: 0.4rem 0.2rem;
+  border-radius: 0.2rem;
+  border: 1px solid #999595;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  transition: 0.7s;
+}
+.submit {
+  background-color: #1333c2;
+  display: block;
+  margin: auto;
+  width: 60%;
+  color: #ffffff;
+  border: 1px solid #000000;
+  padding: 0.4rem 0.4rem;
+  border-radius: 0.2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  transition: 0.7s;
+}
+.sing-in {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.checkbox {
+  width: 26px;
+}
+.privacy {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+}
+@media screen and (max-width: 990px) {
+  .Login-area form input {
+    width: 80%;
+  }
+  .submit {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 790px) {
+  .Login-area form input {
+    width: 90%;
+  }
+  .submit {
+    width: 90%;
+  }
+  .sing-up-area {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .sing-up-area {
+    width: 90%;
+  }
+}
