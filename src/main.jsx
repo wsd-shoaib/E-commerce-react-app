@@ -9,7 +9,7 @@ import Products from "./Pages/Products/Products.jsx";
 import About from "./Pages/About/About.jsx";
 import Contact from "./Pages/Contact/Contact.jsx";
 import Cart from "./Pages/Cart/Cart.jsx";
-import Login from "./Pages/LoginOut/Login.jsx";
+import Login from "./Pages/Loginout/Login.jsx";
 import ShopContextProvider from "./Context/ShopContextProvider/ShopContextProvider.jsx";
 import AllCategoryProduct from "./Component/AllCategoryProduct/AllCategoryProduct.jsx";
 import SingleData from "./Pages/Products/SingleData.jsx";
